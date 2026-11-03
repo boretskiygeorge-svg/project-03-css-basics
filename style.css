@@ -27,3 +27,24 @@ body {
 .profile-card_link:active {
     transform: translateY(1px);
 }
+.profile-card {
+    max-width: 520px;
+    margin: 40px auto;
+    padding: 24px;
+    border: 1px solid #d8d8d8;
+    border-radius: 18px;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    transition: transform 0.2s ease, box-shadow 0.2 ease;
+}
+.profile-card__link:hover {
+text-decoration: none;
+border-color: #007bff;
+ 
+}
+.featured {
+    font-weight: bold;
+    color: rebeccapurple;
+
+
+}
